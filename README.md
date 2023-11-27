@@ -6,7 +6,6 @@ Get information from a url to use as a preview
 
 * Get information from a url to use as a preview
 * Version 1.0
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
 ### How do I get set up? ###
 
@@ -14,6 +13,11 @@ Get information from a url to use as a preview
 * Execute npm install
 * Execute npm run start
 * Listen on port 3000
+* Post service on /link-preview
+* Use Json params:
+{
+    "url": "url-get-info"
+}
 
 ### Who do I talk to? ###
 
